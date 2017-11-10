@@ -30,7 +30,11 @@ function destructivelyRemoveElementFromEndOfArray (array){
 }
 
 function addElementToEndOfArray (array, element){
+<<<<<<< HEAD
   var newArray = [...array, element]; //...array is just to identify the array itself
+=======
+  var newArray = [...array, element]; //...array is just to identify the array itself  
+>>>>>>> d5043969979af6a506c22aa65f3545b97006973c
   return newArray;
 }
 
@@ -41,5 +45,9 @@ function destructivelyAddElementToEndOfArray (array, element) {
 
 function removeElementFromEndOfArray (array) {
   var newArray = array.slice(0, array.length -1);
+<<<<<<< HEAD
   return newArray; //non-destructive
+=======
+  return newArray; //non-destructive 
+>>>>>>> d5043969979af6a506c22aa65f3545b97006973c
 }
